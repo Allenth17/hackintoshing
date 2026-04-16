@@ -310,9 +310,9 @@
 				<key>AAPL00,override-no-connect</key>
 				<data></data>
 				<key>device-id</key>
-				<data>mkAAAA==</data>
+				<data>UooAAA==</data>
 				<key>AAPL,ig-platform-id</key>
-				<data>+8gAAA==</data>
+				<data>AABSig==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
 			<dict>
@@ -1311,7 +1311,7 @@
 			<key>BlacklistAppleUpdate</key>
 			<true/>
 			<key>DmgLoading</key>
-			<string>Signed</string>
+			<string>Any</string>
 			<key>EnablePassword</key>
 			<false/>
 			<key>ExposeSensitiveData</key>
@@ -1385,7 +1385,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-v debug=0x100 keepsyms=1 npci=0x3000 igfxonln=1 -igfxnotelemetryload</string>
+				<string>-v debug=0x100 keepsyms=1 npci=0x3000 -igfxvesa</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
